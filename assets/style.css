@@ -1,0 +1,13 @@
+body {
+    background: url("../assets/images/2013LZGalleryBonzoImpPr075_1220413-620x413.jpg"); 
+    background-position: center top;
+    background-repeat: no-repeat;
+          
+}
+
+.keys {
+    display: flex;
+    align-items: bottom;
+    justify-content: center bottom;
+
+}
