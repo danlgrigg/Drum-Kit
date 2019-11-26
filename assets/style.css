@@ -1,13 +1,51 @@
 body {
-    background: url("../assets/images/2013LZGalleryBonzoImpPr075_1220413-620x413.jpg"); 
+    background: url("../assets/images/2013LZGalleryBonzoImpPr075_1220413-620x413.jpg");
+    background-size: auto 40%; 
+    background-color: blanchedalmond;
     background-position: center top;
     background-repeat: no-repeat;
-          
 }
 
 .keys {
     display: flex;
-    align-items: bottom;
-    justify-content: center bottom;
+    flex:   1;
+    min-height: 100vh;   
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.key {
+    border: .3rem solid black;
+    border-radius: .5rem;
+    box-shadow: inset;
+    padding: 1rem .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    background: black;
+    color: whitesmoke;
+    font-family: sans-serif;
+    width: 10rem;
+    text-shadow: 0 0 1rem whitesmoke;   
 
 }
+
+kbd{
+    display: block;
+    font-size: 4rem;
+    font-family: 'Alatsi', sans-serif;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+
+}
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+  }
